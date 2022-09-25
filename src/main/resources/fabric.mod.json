@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "set-spawn",
+  "version": "${version}",
+  "name": "Set Spawn Mod",
+  "description": "Sets the player's spawnpoint in SSG to specified coordinates.",
+  "authors": [
+    "bdamja",
+    "marinersfan824"
+  ],
+  "contact": {
+    "sources": "https://github.com/marinersfan824/set-spawn-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.marinersfan824.setspawn.SetSpawn"
+    ]
+  },
+  "mixins": [
+    "set-spawn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "~1.12"
+  }
+}
